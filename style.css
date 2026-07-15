@@ -54,57 +54,44 @@ body{
     background:white;
     color:#0d1b2a;
 }
-/* Contact Section */
 #contact{
-    padding:70px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:80vh;
     background:#0d1117;
-    text-align:center;
-}
-
-.section-title{
-    color:#fff;
-    font-size:40px;
-    margin-bottom:30px;
+    padding:40px;
 }
 
 .contact-card{
-    width:500px;
-    max-width:90%;
-    margin:0 auto;
+    width:700px;
+    max-width:95%;
+    padding:50px;
     background:#161b22;
+    border-radius:20px;
+    text-align:center;
     border:2px solid #00bfff;
-    border-radius:15px;
-    padding:30px;
-    box-shadow:0 0 20px rgba(0,191,255,.4);
+    box-shadow:0 0 25px rgba(0,191,255,.5);
 }
 
-.contact-card h3{
-    color:#00bfff;
-    margin-bottom:15px;
+.contact-card h2{
+    font-size:42px;
+    color:#fff;
+    margin-bottom:25px;
 }
 
 .contact-card a{
-    color:#fff;
-    font-size:20px;
+    font-size:28px;
+    color:#00bfff;
     text-decoration:none;
     font-weight:bold;
 }
 
-.contact-card a:hover{
-    color:#00bfff;
-}
-
 .contact-card p{
-    color:#ccc;
-    margin-top:15px;
+    font-size:20px;
+    color:#ddd;
+    margin-top:20px;
 }
-.about{
-    background:#ffffff;
-    color:#333;
-    padding:60px 20px;
-    text-align:center;
-}
-
 .about h2{
     font-size:40px;
     color:#0d47a1;
