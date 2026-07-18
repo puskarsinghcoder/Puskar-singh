@@ -87,6 +87,23 @@ body{
     font-weight:bold;
 }
 
+.whatsapp-btn{
+    display:inline-block;
+    background:#25D366;
+    color:#fff;
+    padding:12px 25px;
+    border-radius:10px;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.whatsapp-btn:hover{
+    background:#1ebe5d;
+    transform:scale(1.05);
+}
+
 .contact-card p{
     font-size:20px;
     color:#ddd;
